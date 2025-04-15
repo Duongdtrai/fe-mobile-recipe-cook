@@ -1,0 +1,32 @@
+//user
+export const LOGIN_REQUEST = "LOGIN_REQUEST";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+
+export const UPLOAD_IMAGE_REQUEST = "UPLOAD_IMAGE_REQUEST";
+export const UPLOAD_IMAGE_SUCCESS = "UPLOAD_IMAGE_SUCCESS";
+
+export const SIGN_UP_REQUEST = "SIGN_UP_REQUEST";
+export const SIGN_UP_SUCCESS = "SIGN_UP_SUCCESS";
+
+export const CHANGE_INFO_REQUEST = "CHANGE_INFO_REQUEST";
+export const CHANGE_INFO_SUCCESS = "CHANGE_INFO_SUCCESS";
+
+export const GET_USER_REQUEST = "GET_USER_REQUEST";
+export const GET_USER_SUCCESS = "GET_USER_SUCCESS";
+
+export const SET_USER = "SET_USER";
+
+export const SET_TOKEN = "SET_TOKEN";
+
+//favourtite team
+export const SET_FAVOURITE_TEAMS = "SET_FAVOURITE_TEAMS";
+
+// notifications
+export const SET_LIST_NOTIFICATION = "SET_LIST_NOTIFICATION";
+export const SET_NOT_READ = "SET_NOT_READ";
+export const SET_NOTIFY_STATUS = "SET_NOTIFY_STATUS";
+
+// tab
+export const SET_TAB_INDEX = "SET_TAB_INDEX";
+
+

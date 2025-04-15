@@ -1,0 +1,40 @@
+{
+    "news": [
+      {
+        "id": 1,
+        "title": "Messi lập hat-trick, Barcelona thắng đậm Real Madrid",
+        "description": "Lionel Messi đã có một trận đấu xuất sắc khi lập hat-trick giúp Barcelona đánh bại Real Madrid với tỉ số 4-1.",
+        "image": "https://example.com/images/news1.jpg",
+        "content": "Barcelona đã có một chiến thắng ấn tượng trước đối thủ truyền kiếp Real Madrid trong trận El Clasico. Messi đã thể hiện phong độ xuất sắc khi ghi ba bàn thắng, cùng với một bàn thắng nữa của đồng đội để giúp Barcelona đánh bại Real Madrid với tỉ số 4-1. Đây là một chiến thắng quan trọng giúp Barcelona củng cố vị trí của mình trên bảng xếp hạng La Liga."
+      },
+      {
+        "id": 2,
+        "title": "Liverpool vô địch Premier League sau 30 năm chờ đợi",
+        "description": "Liverpool đã chính thức đăng quang vô địch Premier League sau khi Manchester City thất bại trước Chelsea.",
+        "image": "https://example.com/images/news2.jpg",
+        "content": "Liverpool đã chính thức đoạt chức vô địch Premier League sau 30 năm chờ đợi. Thành tích này đã được đảm bảo sau khi đội bóng thành Manchester, Manchester City, thất bại 1-2 trước Chelsea. Đây là lần đầu tiên Liverpool vô địch Premier League kể từ năm 1990, và là chiến tích mà các CĐV Liverpool không thể quên."
+      },
+      {
+        "id": 3,
+        "title": "Ronaldo ghi bàn quyết định, Juventus giành Siêu cúp Italia",
+        "description": "Cristiano Ronaldo đã ghi bàn quyết định giúp Juventus đánh bại Napoli trong trận chung kết Siêu cúp Italia.",
+        "image": "https://example.com/images/news3.jpg",
+        "content": "Trong một trận đấu kịch tính, Juventus đã giành chiến thắng 2-1 trước Napoli để giành Siêu cúp Italia. Cristiano Ronaldo đã lập công với bàn thắng quyết định ở phút 90, sau khi Alvaro Morata ghi bàn mở tỉ số cho Juventus và Hirving Lozano gỡ hòa cho Napoli. Đây là danh hiệu đầu tiên mà HLV Andrea Pirlo giành được kể từ khi tiếp quản Juventus."
+      },
+      {
+        "id": 4,
+        "title": "Mbappe lập cú đúp, PSG thắng trận derby Paris",
+        "description": "Kylian Mbappe đã tỏa sáng với cú đúp bàn thắng giúp PSG đánh bại đối thủ cùng thành phố Paris Saint-Germain.",
+        "image": "https://example.com/images/news4.jpg",
+        "content": "Kylian Mbappe đã có một trận đấu xuất sắc khi lập cú đúp giúp PSG đánh bại đối thủ cùng thành phố Paris Saint-Germain với tỉ số 3-1. Marco Verratti cũng đã ghi bàn cho PSG, trong khi đội bóng đối thủ chỉ có được một bàn gỡ hòa từ Angel Di Maria. Chiến thắng này giúp PSG củng cố vị trí dẫn đầu trên bảng xếp hạng Ligue 1."
+      },
+      {
+        "id": 5,
+        "title": "Chelsea đánh bại Manchester City, giành vé vào chung kết FA Cup",
+        "description": "Chelsea đã giành chiến thắng ấn tượng 1-0 trước Manchester City, giành vé vào chung kết FA Cup.",
+        "image": "https://example.com/images/news5.jpg",
+        "content": "Trận đấu giữa Chelsea và Manchester City đã diễn ra vô cùng hấp dẫn, và cuối cùng là Chelsea đã giành chiến thắng với tỉ số 1-0. Bàn thắng duy nhất của trận đấu được ghi bởi Hakim Ziyech ở phút thứ 55. Chiến thắng này giúp Chelsea giành vé vào chung kết FA Cup, nơi họ sẽ đối đầu với đội thắng trong trận đấu giữa Leicester City và Southampton."
+      }
+    ]
+  }
+  
