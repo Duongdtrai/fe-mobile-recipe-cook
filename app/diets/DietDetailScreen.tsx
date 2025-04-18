@@ -48,6 +48,11 @@ const DietDetailScreen: React.FC = () => {
       </View>
     );
   }
+  const totalCalories =
+    data?.ingredients?.reduce(
+      (sum: any, item: any) => sum + item.calories,
+      0
+    ) || 0;
   return (
     <>
       <ScrollView style={styles.container}>
@@ -55,6 +60,28 @@ const DietDetailScreen: React.FC = () => {
         <Image source={{ uri: data?.image }} style={styles.image} />
         <Text style={styles.sectionTitle}>📖 Mô tả</Text>
         <Text style={styles.text}>{data?.description}</Text>
+        <Text style={styles.sectionTitle}>🥗 Nguyên liệu</Text>
+        {data?.ingredients?.map((item: any, index: number) => (
+          <View key={index} style={styles.ingredientCard}>
+            <Image
+              source={{ uri: item.image }}
+              style={styles.ingredientImage}
+            />
+            <View style={styles.ingredientInfo}>
+              <Text style={styles.ingredientName}>{item.name}</Text>
+              <Text style={styles.ingredientDesc}>{item.description}</Text>
+              <Text style={styles.ingredientDetail}>
+                ⚖️ {item.grams}g | 🔥 {item.calories} kcal
+              </Text>
+            </View>
+          </View>
+        ))}
+
+        <View style={styles.totalCaloriesBox}>
+          <Text style={styles.totalCaloriesText}>
+            🔢 Tổng calo: {totalCalories} kcal
+          </Text>
+        </View>
         <CommentSection recipe_id={recipe_id} />
       </ScrollView>
     </>
@@ -64,6 +91,50 @@ const DietDetailScreen: React.FC = () => {
 export default DietDetailScreen;
 
 const styles = StyleSheet.create({
+  ingredientCard: {
+    flexDirection: "row",
+    marginBottom: 14,
+    backgroundColor: "#f9f9f9",
+    padding: 12,
+    borderRadius: 10,
+    elevation: 2,
+  },
+  ingredientImage: {
+    width: 70,
+    height: 70,
+    borderRadius: 8,
+    marginRight: 12,
+  },
+  ingredientInfo: {
+    flex: 1,
+    justifyContent: "center",
+  },
+  ingredientName: {
+    fontSize: 17,
+    fontWeight: "600",
+    color: "#333",
+  },
+  ingredientDesc: {
+    fontSize: 14,
+    color: "#777",
+    marginVertical: 4,
+  },
+  ingredientDetail: {
+    fontSize: 14,
+    color: "#555",
+  },
+  totalCaloriesBox: {
+    marginTop: 24,
+    padding: 14,
+    backgroundColor: "#FFF3E0",
+    borderRadius: 10,
+    alignItems: "center",
+  },
+  totalCaloriesText: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#E65100",
+  },
   container: {
     padding: 20,
     backgroundColor: "#fff",
